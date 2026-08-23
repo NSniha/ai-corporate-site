@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Aurelis Partners to discuss strategy, transformation, digital and organizational priorities.">
+  <meta name="theme-color" content="#0c0f10">
+  <title>Contact — Aurelis Partners</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <!-- Accessibility & Global Interface -->
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-progress"></div>
+  <div class="cursor"></div>
+  <div class="cursor-dot"></div>
+  <div class="page-transition"></div>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">A</span>
+        <span>Aurelis</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+
+      <a class="btn btn--light header-cta" href="#inquiry" data-magnetic>
+        Start a conversation
+        <ion-icon name="arrow-down-outline"></ion-icon>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <aside class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div>
+      <nav class="mobile-menu__nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="mobile-menu__meta">
+        <span>London · Singapore · New York</span>
+        <a href="mailto:hello@aurelis.co">hello@aurelis.co</a>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main">
+
+    <!-- Contact Hero Section -->
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <div>
+          <span class="eyebrow reveal">Contact</span>
+          <h1 class="h1 text-reveal" style="margin-top: 20px;">
+            <span>Tell us what you are trying to change.</span>
+          </h1>
+        </div>
+
+        <p class="lead reveal-up">
+          Share the business context, the decision in front of you, and what a successful outcome would look like. A senior member of our team will respond.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Inquiry Section -->
+    <section class="section section--soft" id="inquiry">
+      <div class="container contact-grid">
+
+        <div class="contact-info reveal-left">
+          <div>
+            <span class="eyebrow">Direct contact</span>
+            <h2 class="h2" style="margin-top: 20px;">Start with a clear question.</h2>
+          </div>
+
+          <div class="contact-info__item">
+            <span>Email</span>
+            <a href="mailto:hello@aurelis.co">hello@aurelis.co</a>
+          </div>
+
+          <div class="contact-info__item">
+            <span>Phone</span>
+            <a href="tel:+442079460840">+44 (0)20 7946 0840</a>
+          </div>
+
+          <div class="contact-info__item">
+            <span>Response time</span>
+            <p>Usually within one business day.</p>
+          </div>
+        </div>
+
+        <form class="contact-form reveal-right" data-contact-form novalidate>
+          <div class="form-grid">
+
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" autocomplete="name" data-validate="name" aria-describedby="nameError">
+              <span class="error" id="nameError"></span>
+            </div>
+
+            <div class="field">
+              <label for="email">Business email</label>
+              <input id="email" name="email" type="email" autocomplete="email" data-validate="email" aria-describedby="emailError">
+              <span class="error" id="emailError"></span>
+            </div>
+
+            <div class="field">
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" autocomplete="organization" data-validate="company" aria-describedby="companyError">
+              <span class="error" id="companyError"></span>
+            </div>
+
+            <div class="field">
+              <label for="service">Area of interest</label>
+              <select id="service" name="service" data-validate="service" aria-describedby="serviceError">
+                <option value="">Select one</option>
+                <option>Corporate Strategy</option>
+                <option>Business Transformation</option>
+                <option>Digital & AI</option>
+                <option>Organization & Leadership</option>
+                <option>Other</option>
+              </select>
+              <span class="error" id="serviceError"></span>
+            </div>
+
+            <div class="field field--full">
+              <label for="message">What are you trying to solve?</label>
+              <textarea id="message" name="message" data-validate="message" aria-describedby="messageError" placeholder="Briefly describe the context, decision or transformation challenge."></textarea>
+              <span class="error" id="messageError"></span>
+            </div>
+
+            <div class="field field--full">
+              <button class="btn" type="submit" data-magnetic>
+                Submit inquiry
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </button>
+
+              <div class="form-status" role="status" aria-live="polite"></div>
+            </div>
+
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+    <!-- Global Offices Section -->
+    <section class="section section--dark">
+      <div class="container">
+        <span class="eyebrow reveal">Global offices</span>
+        <h2 class="h2 reveal-up" style="margin-top: 20px; max-width: 850px;">Close to clients, connected as one firm.</h2>
+
+        <div class="office-grid">
+
+          <article class="office-card reveal-up">
+            <span class="micro">Europe</span>
+            <div>
+              <h3>London</h3>
+              <p>30 Finsbury Square<br>London EC2A 1AG</p>
+            </div>
+          </article>
+
+          <article class="office-card reveal-up">
+            <span class="micro">Americas</span>
+            <div>
+              <h3>New York</h3>
+              <p>375 Park Avenue<br>New York, NY 10152</p>
+            </div>
+          </article>
+
+          <article class="office-card reveal-up">
+            <span class="micro">Asia Pacific</span>
+            <div>
+              <h3>Singapore</h3>
+              <p>8 Marina View<br>Singapore 018960</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Pre-Meeting Guidance Section -->
+    <section class="section section--light">
+      <div class="container split-intro">
+
+        <div class="reveal-left">
+          <span class="eyebrow">Before we meet</span>
+        </div>
+
+        <div class="split-intro__copy reveal-right">
+          <h2 class="h2">Three things that make the first conversation useful.</h2>
+
+          <p class="lead">
+            The most productive conversations usually start with a decision, a constraint and a desired outcome. You do not need a polished brief—just enough context for us to understand why the issue matters now.
+          </p>
+
+          <div class="process">
+
+            <div class="process-step">
+              <h3>The decision</h3>
+              <p>What choice, shift or commitment needs to be made?</p>
+            </div>
+
+            <div class="process-step">
+              <h3>The constraint</h3>
+              <p>What is making progress difficult today?</p>
+            </div>
+
+            <div class="process-step">
+              <h3>The outcome</h3>
+              <p>What would materially better performance look like?</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a class="logo" href="index.html">
+            <span class="logo-mark">A</span>
+            <span>Aurelis</span>
+          </a>
+
+          <p>Independent corporate advisory for strategy, transformation, digital and organizational change.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Offices</h4>
+          <a href="#">London</a>
+          <a href="#">New York</a>
+          <a href="#">Singapore</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="mailto:hello@aurelis.co">Email</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Privacy</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span data-year></span> Aurelis Partners</span>
+        <span>Strategy / Transformation / Growth</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="assets/js/main.js" defer></script>
+
+</body>
+
+</html>
