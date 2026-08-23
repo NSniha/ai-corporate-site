@@ -1,5 +1,3 @@
-<img width="1280" height="800" alt="preview (2)" src="https://github.com/user-attachments/assets/ba48268c-ddb1-4fbf-9c9f-b32589dc416c" />
-
 # Aurelis Partners — Corporate Advisory Website
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
@@ -8,9 +6,9 @@
 ![No Framework](https://img.shields.io/badge/Framework-None%20(Vanilla)-333333?style=flat)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-A multi-page corporate advisory website concept built with vanilla HTML, CSS and JavaScript. The design targets a premium strategy/transformation consulting firm ("Aurelis Partners"), with smooth scroll-based motion, a custom cursor, and a fully responsive layout — no frameworks or build tools required.
+<img width="1280" height="800" alt="preview (3)" src="https://github.com/user-attachments/assets/b076f1d0-072a-4b8d-a067-6c657a3efb96" />
 
-**Live demo:** enable GitHub Pages on this repo (Settings → Pages → Deploy from `main`) and add the link here.
+A multi-page corporate advisory website concept built with vanilla HTML, CSS and JavaScript. The design targets a premium strategy/transformation consulting firm ("Aurelis Partners"), with smooth scroll-based motion, a custom cursor, and a fully responsive layout — no frameworks or build tools required.
 
 ## Features
 
@@ -59,7 +57,7 @@ cd ai-corporate-site
 Open `index.html` directly in a browser, or serve it locally:
 
 ```bash
-npx serve .
+npx server.
 ```
 
 ## Pages
