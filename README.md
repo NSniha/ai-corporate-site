@@ -1,3 +1,5 @@
+<img width="1280" height="800" alt="preview (2)" src="https://github.com/user-attachments/assets/ba48268c-ddb1-4fbf-9c9f-b32589dc416c" />
+
 # Aurelis Partners — Corporate Advisory Website
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
